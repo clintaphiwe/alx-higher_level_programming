@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-fizz = 0
 def fizzbuzz():
-  for i in range(1, 100):
-      fizz = 3 * i
-      print(fizz)
-      if fizz == 100:
-         break
-
+  for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+      print("FizzBuzz")
+    elif i % 3 == 0:
+      print("Frizz")
+    elif i % 5 == 0:
+      print("Buzz")
+    else:
+      print(i)
+            
 fizzbuzz()
