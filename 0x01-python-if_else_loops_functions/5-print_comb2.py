@@ -12,6 +12,6 @@
 
 
 for i in range(0, 99):
-  if i <= 9:
-    print("0"+i)
+    if i <= 9:
+        print("0"+i)
   # print(i)
