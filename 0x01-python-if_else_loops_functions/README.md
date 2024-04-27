@@ -2,9 +2,6 @@
 
 Higher Level Programming
 
-In the  0x00. Python Hello World directory we have the following files:
-> 0-run.sh
-
 In the  0x01. Python - if/else, loops, functions directory we have the following files:
  > 0-positive_or_negative.py
  > 1-last_digit.py
