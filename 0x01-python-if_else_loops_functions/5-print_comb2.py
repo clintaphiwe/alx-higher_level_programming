@@ -4,4 +4,3 @@ for i in range(100):
         print("0" + str(i), end=", ")
     else:
         print(str(i), end=", ")
-print()
