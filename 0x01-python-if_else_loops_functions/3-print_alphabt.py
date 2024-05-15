@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if i != 101:
-        if i != 113:
-            print(chr(i), end=' '.format(i))
+for char_code in range(ord('a'), ord('z') + 1):
+    if chr(char_code) not in ['q', 'e']:
+        print(chr(char_code), end='')
