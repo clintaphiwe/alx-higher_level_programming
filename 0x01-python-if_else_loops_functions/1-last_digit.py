@@ -21,7 +21,7 @@ else:
     print("Last digit of", number, "is", last_digit_number, end=" ")
 
 # Determine if the last digit is greater than 5, equal to 0, or less than 6 and not 0
-if last_digit_number > 5:
+if last_digit_number > 5 and not (number < 0):
     print("and is greater than 5")
 elif last_digit_number == 0:
     print("and is 0")
