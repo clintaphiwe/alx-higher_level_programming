@@ -2,9 +2,9 @@
 def print_last_digit(number):
     number = abs(number)
     last_digit = number % 10
-    print("The last digit of", number, "is", last_digit)
+    print("The last digit of {} is {}.".format(number, last_digit))
     return last_digit
 
 # Example usage:
 number = -1204
-last_digit = print_last_digit(number)
+print_last_digit(number)
