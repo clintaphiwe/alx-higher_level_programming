@@ -12,4 +12,3 @@ def replace_in_list(my_list, idx, element):
     #If index is valid, replace the element at that index with the new element
     my_list[idx] = element
     return(my_list)
-
