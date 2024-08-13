@@ -2,7 +2,7 @@
 # for i in range(99):
 #     if i < 10:
 #         print("{}".format("0" + str(i)), end=", ")
-#     elif i <= 100:
+#     elif i <= 100:n  
 #         print(",{}".format(i), end=" ")
 
 
