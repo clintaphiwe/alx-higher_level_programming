@@ -12,10 +12,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
     #Return the result tuple
     result = (a1 + b1, a2 + b2)
     print(result)
-
-# e = 88, 0
-# z = 43, 67
-# add_tuple(e, z)
-tuple_a = (1, 89)
-
-print(add_tuple(tuple_a, (1, )))
