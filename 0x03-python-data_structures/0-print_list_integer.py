@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
 def print_list_integer(my_list):
-    for i in range(len(my_list)):
-        print("{}".format(my_list[i]))
-
-
-list = [23, 55, 34, 66, 87, 90, 11]
-print_list_integer(list)
+    for i in my_list:
+        print("{:d}".format(i))
