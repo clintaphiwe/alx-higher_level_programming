@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 /* Definition for singly-linked list */
-typedef struct listint_s
+typedef struct x_s
 {
     int n;
-    struct listint_s *next;
-} listint_t;
+    struct x_s *next;
+} x_t;
 
-listint_t *insert_node(listint_t **head, int number)
+x_t *insert_node(x_t **head, int number)
 {
-    listint_t *new_node, *current;
+    x_t *new_node, *current;
 
     /* Allocate memory for the new node */
-    new_node = malloc(sizeof(listint_t));
+    new_node = malloc(sizeof(x_t));
     if (new_node == NULL)
         return NULL;
 
