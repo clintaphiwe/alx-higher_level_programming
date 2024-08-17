@@ -4,4 +4,4 @@ for i in range(10):
         if i < 8 or j < 9:
             print("{:01d}{}".format(i, j), end=", ")
         else:
-            print("{:02d}{}".format(i, j))
+            print("{:01d}{}".format(i, j))
